@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Hello">Hello World, Click Me!</string>
+    <string name="ApplicationName">NumericalMethodsApp</string>
+    <string name="WelcomeMessage">Hello there, welcome to the numerical methods calculator. With this app, you\'ll find it very easy computing numerical methods by selecting it from the presented options on the first page. Enjoy!</string>
+    <string name="AboutMessage">
+        Numerical Methods App brings to you a better experience of solving most of the common numerical methods with ease. Solve simultaneous equations, evaluate gregory newton and langrange interpolation and many other more.
+    </string>
+
+    <string-array name="ResistorColorStandard">
+        <item>Black</item>
+        <item>Brown</item>
+        <item>Red</item>
+        <item>Orange</item>
+        <item>Yellow</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Violet</item>
+        <item>Gray</item>
+        <item>White</item>
+    </string-array>
+
+
+    <string-array name="ResistorColorFBand">
+        <item>Brown</item>
+        <item>Red</item>
+        <item>Gold</item>
+        <item>Silver</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/support_toolbar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/btn_dc_current_calc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DC Current Calculator"/>
+
+        <Button
+            android:id="@+id/btn_dc_power_calc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DC Power Calculator"/>
+
+        <Button
+            android:id="@+id/btn_dc_voltage_calc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DC Voltage Calculator"/>
+
+        <Button
+            android:id="@+id/btn_dc_resistance_calc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DC Resistance Calculator"/>
+
+    </LinearLayout>
+
+</LinearLayout>

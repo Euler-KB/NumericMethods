@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+  <include layout="@layout/support_toolbar"/>
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+      <TextView
+          android:id="@+id/lb_no_search_results"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_horizontal"
+          android:layout_marginTop="10dp"
+          android:text="No search results found for keyword"
+          android:visibility="gone" />
+
+      <LinearLayout
+          android:id="@+id/btn_gregory_newton"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_marginLeft="10dp"
+          android:layout_marginRight="10dp"
+          android:layout_marginTop="10dp"
+          android:background="@drawable/btn_bg"
+          android:orientation="vertical"
+          android:padding="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gregory Newton"
+            android:textColor="@color/icons"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Computes the interpolation for a given function f(x)"
+            android:textColor="@color/icons" />
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:id="@+id/btn_langrange_interp"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_marginLeft="10dp"
+          android:layout_marginRight="10dp"
+          android:layout_marginTop="10dp"
+          android:background="@drawable/btn_bg"
+          android:orientation="vertical"
+          android:padding="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Langrange Interpolation"
+            android:textColor="@color/icons"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Evaluate curves using langrange interpolation formula"
+            android:textColor="@color/icons" />
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:id="@+id/btn_simultaneous_eqn"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_marginLeft="10dp"
+          android:layout_marginRight="10dp"
+          android:layout_marginTop="10dp"
+          android:background="@drawable/btn_bg"
+          android:orientation="vertical"
+          android:padding="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Simultaneous Equations"
+            android:textColor="@color/icons"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Solve equations involving multiple variables"
+            android:textColor="@color/icons" />
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:id="@+id/btn_power_density"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_marginLeft="10dp"
+          android:layout_marginRight="10dp"
+          android:layout_marginTop="10dp"
+          android:background="@drawable/btn_bg"
+          android:orientation="vertical"
+          android:padding="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Power Density"
+            android:textColor="@color/icons"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Calculate power density"
+            android:textColor="@color/icons" />
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:id="@+id/btn_resistance_calculator"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_marginLeft="10dp"
+          android:layout_marginRight="10dp"
+          android:layout_marginTop="10dp"
+          android:background="@drawable/btn_bg"
+          android:orientation="vertical"
+          android:padding="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Resistance Calculator"
+            android:textColor="@color/icons"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Calculate the resistance of a resistor and its tolerance"
+            android:textColor="@color/icons" />
+
+      </LinearLayout>
+
+
+      <LinearLayout
+          android:id="@+id/btn_capacitance_calculator"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_marginLeft="10dp"
+          android:layout_marginRight="10dp"
+          android:layout_marginTop="10dp"
+          android:background="@drawable/btn_bg"
+          android:orientation="vertical"
+          android:padding="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Capacitive Reactance And Capacitance"
+            android:textColor="@color/icons"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Calculate the resistance of a resistor and its tolerance"
+            android:textColor="@color/icons" />
+
+      </LinearLayout>
+
+      <LinearLayout
+            android:id="@+id/btn_skin_effect"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_bg"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Skin Effect Calculator"
+            android:textColor="@color/icons"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Compute skin depth"
+            android:textColor="@color/icons" />
+
+      </LinearLayout>
+
+      <LinearLayout
+            android:id="@+id/btn_dc_analysis"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_bg"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DC Analysis"
+            android:textColor="@color/icons"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Direct current analysis computations"
+            android:textColor="@color/icons" />
+
+      </LinearLayout>
+
+      <LinearLayout
+            android:id="@+id/btn_engineering_constants"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_bg"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Engineering Constants"
+            android:textColor="@color/icons"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Shows most widely used engineering constants"
+            android:textColor="@color/icons" />
+
+      </LinearLayout>
+
+      <LinearLayout
+              android:id="@+id/btn_radar_range"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_marginLeft="10dp"
+              android:layout_marginRight="10dp"
+              android:layout_marginTop="10dp"
+              android:background="@drawable/btn_bg"
+              android:orientation="vertical"
+              android:padding="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Radar Range"
+            android:textColor="@color/icons"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Calculate the radar range between an antenna and an object"
+            android:textColor="@color/icons" />
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:id="@+id/btn_newton_raphson"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_marginLeft="10dp"
+          android:layout_marginRight="10dp"
+          android:layout_marginTop="10dp"
+          android:background="@drawable/btn_bg"
+          android:orientation="vertical"
+          android:padding="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Newton Raphson"
+            android:textColor="@color/icons"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Find the roots of cubic polynomial"
+            android:textColor="@color/icons" />
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:id="@+id/btn_unit_conversions"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_marginLeft="10dp"
+          android:layout_marginRight="10dp"
+          android:layout_marginTop="10dp"
+          android:background="@drawable/btn_bg"
+          android:orientation="vertical"
+          android:padding="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Unit Conversions"
+            android:textColor="@color/icons"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Convert input from one unit to another"
+            android:textColor="@color/icons" />
+
+      </LinearLayout>
+
+
+    </LinearLayout>
+  </ScrollView>
+
+</LinearLayout>
