@@ -28,16 +28,18 @@ namespace NumericalMethodsApp
                     "W to dBW",
                     "dbW to w",
                     "W to mW",
+                    "mW to W",
                     "W to dBm",
                     "dBm to W",
                     "Feet to m",
                     "m to Feet",
                     "Inches to Meters",
-                    "Meters to inches"
+                    "Meters to Inches"
                 });
 
                 double Convert(int choice, double value)
                 {
+
                     if (choice == 1)
                     {
                         value = 10 * Math.Log10(value);
@@ -47,17 +49,16 @@ namespace NumericalMethodsApp
                     {
                         double dbw = value / 10;
                         value = Math.Pow(10, dbw);
-
                     }
+
                     if (choice == 3)
                     {
-                        value = value / 1000;
+                        value = value * 1000;
                     }
 
                     if (choice == 4)
                     {
-                        value = value * 1000;
-
+                        value = value / 1000;
                     }
 
                     if (choice == 5)
@@ -65,12 +66,12 @@ namespace NumericalMethodsApp
                         value = 10 * Math.Log10(value) + 30;
                     }
 
-
                     if (choice == 6)
                     {
                         double dbm = value / 10;
-                        value = Math.Pow(10, dbm) / 1000;
 
+                        value = Math.Pow(10, dbm);
+                        value = value / 1000;
                     }
 
                     if (choice == 7)
@@ -85,13 +86,14 @@ namespace NumericalMethodsApp
 
                     if (choice == 9)
                     {
-                        value = value / 0.0254;
+                        value = value * 0.0254;
                     }
 
                     if (choice == 10)
                     {
-                        value = value * 0.0254;
+                        value = value / 0.0254;
                     }
+
 
                     return value;
 

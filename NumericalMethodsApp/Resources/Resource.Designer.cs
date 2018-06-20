@@ -1391,11 +1391,11 @@ namespace NumericalMethodsApp
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0b0091
-			public const int action0 = 2131427473;
+			// aapt resource value: 0x7f0b008e
+			public const int action0 = 2131427470;
 			
-			// aapt resource value: 0x7f0b00bd
-			public const int action_about = 2131427517;
+			// aapt resource value: 0x7f0b00ba
+			public const int action_about = 2131427514;
 			
 			// aapt resource value: 0x7f0b0040
 			public const int action_bar = 2131427392;
@@ -1421,8 +1421,8 @@ namespace NumericalMethodsApp
 			// aapt resource value: 0x7f0b0041
 			public const int action_context_bar = 2131427393;
 			
-			// aapt resource value: 0x7f0b0095
-			public const int action_divider = 2131427477;
+			// aapt resource value: 0x7f0b0092
+			public const int action_divider = 2131427474;
 			
 			// aapt resource value: 0x7f0b0002
 			public const int action_menu_divider = 2131427330;
@@ -1448,17 +1448,17 @@ namespace NumericalMethodsApp
 			// aapt resource value: 0x7f0b0016
 			public const int always = 2131427350;
 			
-			// aapt resource value: 0x7f0b00bc
-			public const int app_bar_search = 2131427516;
+			// aapt resource value: 0x7f0b00b9
+			public const int app_bar_search = 2131427513;
 			
 			// aapt resource value: 0x7f0b0013
 			public const int beginning = 2131427347;
 			
-			// aapt resource value: 0x7f0b0080
-			public const int btn_capacitance_calculator = 2131427456;
+			// aapt resource value: 0x7f0b007d
+			public const int btn_capacitance_calculator = 2131427453;
 			
-			// aapt resource value: 0x7f0b0082
-			public const int btn_dc_analysis = 2131427458;
+			// aapt resource value: 0x7f0b007f
+			public const int btn_dc_analysis = 2131427455;
 			
 			// aapt resource value: 0x7f0b0057
 			public const int btn_dc_current_calc = 2131427415;
@@ -1472,8 +1472,8 @@ namespace NumericalMethodsApp
 			// aapt resource value: 0x7f0b0059
 			public const int btn_dc_voltage_calc = 2131427417;
 			
-			// aapt resource value: 0x7f0b0083
-			public const int btn_engineering_constants = 2131427459;
+			// aapt resource value: 0x7f0b0080
+			public const int btn_engineering_constants = 2131427456;
 			
 			// aapt resource value: 0x7f0b005b
 			public const int btn_evaluate = 2131427419;
@@ -1484,44 +1484,50 @@ namespace NumericalMethodsApp
 			// aapt resource value: 0x7f0b0056
 			public const int btn_evaluate_reactance = 2131427414;
 			
+			// aapt resource value: 0x7f0b0078
+			public const int btn_gregory_newton = 2131427448;
+			
+			// aapt resource value: 0x7f0b0079
+			public const int btn_langrange_interp = 2131427449;
+			
+			// aapt resource value: 0x7f0b0082
+			public const int btn_newton_raphson = 2131427458;
+			
 			// aapt resource value: 0x7f0b007b
-			public const int btn_gregory_newton = 2131427451;
-			
-			// aapt resource value: 0x7f0b007c
-			public const int btn_langrange_interp = 2131427452;
-			
-			// aapt resource value: 0x7f0b0085
-			public const int btn_newton_raphson = 2131427461;
-			
-			// aapt resource value: 0x7f0b007e
-			public const int btn_power_density = 2131427454;
-			
-			// aapt resource value: 0x7f0b0084
-			public const int btn_radar_range = 2131427460;
-			
-			// aapt resource value: 0x7f0b007f
-			public const int btn_resistance_calculator = 2131427455;
-			
-			// aapt resource value: 0x7f0b007d
-			public const int btn_simultaneous_eqn = 2131427453;
+			public const int btn_power_density = 2131427451;
 			
 			// aapt resource value: 0x7f0b0081
-			public const int btn_skin_effect = 2131427457;
+			public const int btn_radar_range = 2131427457;
 			
-			// aapt resource value: 0x7f0b0086
-			public const int btn_unit_conversions = 2131427462;
+			// aapt resource value: 0x7f0b007c
+			public const int btn_resistance_calculator = 2131427452;
+			
+			// aapt resource value: 0x7f0b007a
+			public const int btn_simultaneous_eqn = 2131427450;
+			
+			// aapt resource value: 0x7f0b007e
+			public const int btn_skin_effect = 2131427454;
+			
+			// aapt resource value: 0x7f0b0076
+			public const int btn_three_pts = 2131427446;
+			
+			// aapt resource value: 0x7f0b0075
+			public const int btn_two_pts = 2131427445;
+			
+			// aapt resource value: 0x7f0b0083
+			public const int btn_unit_conversions = 2131427459;
 			
 			// aapt resource value: 0x7f0b0036
 			public const int buttonPanel = 2131427382;
 			
-			// aapt resource value: 0x7f0b0092
-			public const int cancel_action = 2131427474;
+			// aapt resource value: 0x7f0b008f
+			public const int cancel_action = 2131427471;
 			
 			// aapt resource value: 0x7f0b0038
 			public const int checkbox = 2131427384;
 			
-			// aapt resource value: 0x7f0b0098
-			public const int chronometer = 2131427480;
+			// aapt resource value: 0x7f0b0095
+			public const int chronometer = 2131427477;
 			
 			// aapt resource value: 0x7f0b0017
 			public const int collapseActionView = 2131427351;
@@ -1529,8 +1535,8 @@ namespace NumericalMethodsApp
 			// aapt resource value: 0x7f0b0031
 			public const int contentPanel = 2131427377;
 			
-			// aapt resource value: 0x7f0b00ba
-			public const int conversions_spinner = 2131427514;
+			// aapt resource value: 0x7f0b00b7
+			public const int conversions_spinner = 2131427511;
 			
 			// aapt resource value: 0x7f0b0035
 			public const int custom = 2131427381;
@@ -1559,8 +1565,8 @@ namespace NumericalMethodsApp
 			// aapt resource value: 0x7f0b0014
 			public const int end = 2131427348;
 			
-			// aapt resource value: 0x7f0b009d
-			public const int end_padder = 2131427485;
+			// aapt resource value: 0x7f0b009a
+			public const int end_padder = 2131427482;
 			
 			// aapt resource value: 0x7f0b0027
 			public const int expand_activities_button = 2131427367;
@@ -1583,14 +1589,11 @@ namespace NumericalMethodsApp
 			// aapt resource value: 0x7f0b0028
 			public const int image = 2131427368;
 			
-			// aapt resource value: 0x7f0b009c
-			public const int info = 2131427484;
+			// aapt resource value: 0x7f0b0099
+			public const int info = 2131427481;
 			
 			// aapt resource value: 0x7f0b0062
 			public const int inputs_frame = 2131427426;
-			
-			// aapt resource value: 0x7f0b0077
-			public const int lb_answer = 2131427447;
 			
 			// aapt resource value: 0x7f0b0051
 			public const int lb_capacitance_out = 2131427409;
@@ -1598,44 +1601,38 @@ namespace NumericalMethodsApp
 			// aapt resource value: 0x7f0b0054
 			public const int lb_inductance_out = 2131427412;
 			
-			// aapt resource value: 0x7f0b007a
-			public const int lb_no_search_results = 2131427450;
+			// aapt resource value: 0x7f0b0077
+			public const int lb_no_search_results = 2131427447;
 			
 			// aapt resource value: 0x7f0b005f
 			public const int lb_output = 2131427423;
 			
-			// aapt resource value: 0x7f0b0078
-			public const int lb_output_2 = 2131427448;
+			// aapt resource value: 0x7f0b00b1
+			public const int lb_output_x = 2131427505;
 			
-			// aapt resource value: 0x7f0b0079
-			public const int lb_output_3 = 2131427449;
+			// aapt resource value: 0x7f0b00b2
+			public const int lb_output_y = 2131427506;
 			
-			// aapt resource value: 0x7f0b00b4
-			public const int lb_output_x = 2131427508;
+			// aapt resource value: 0x7f0b00aa
+			public const int lb_resistance = 2131427498;
 			
-			// aapt resource value: 0x7f0b00b5
-			public const int lb_output_y = 2131427509;
+			// aapt resource value: 0x7f0b00ab
+			public const int lb_tolerance = 2131427499;
 			
-			// aapt resource value: 0x7f0b00ad
-			public const int lb_resistance = 2131427501;
+			// aapt resource value: 0x7f0b008b
+			public const int lb_x1 = 2131427467;
 			
-			// aapt resource value: 0x7f0b00ae
-			public const int lb_tolerance = 2131427502;
+			// aapt resource value: 0x7f0b008c
+			public const int lb_x2 = 2131427468;
 			
-			// aapt resource value: 0x7f0b008e
-			public const int lb_x1 = 2131427470;
+			// aapt resource value: 0x7f0b008d
+			public const int lb_x3 = 2131427469;
 			
-			// aapt resource value: 0x7f0b008f
-			public const int lb_x2 = 2131427471;
+			// aapt resource value: 0x7f0b0093
+			public const int line1 = 2131427475;
 			
-			// aapt resource value: 0x7f0b0090
-			public const int lb_x3 = 2131427472;
-			
-			// aapt resource value: 0x7f0b0096
-			public const int line1 = 2131427478;
-			
-			// aapt resource value: 0x7f0b009a
-			public const int line3 = 2131427482;
+			// aapt resource value: 0x7f0b0097
+			public const int line3 = 2131427479;
 			
 			// aapt resource value: 0x7f0b0009
 			public const int listMode = 2131427337;
@@ -1646,8 +1643,8 @@ namespace NumericalMethodsApp
 			// aapt resource value: 0x7f0b0061
 			public const int lv_constants = 2131427425;
 			
-			// aapt resource value: 0x7f0b0094
-			public const int media_actions = 2131427476;
+			// aapt resource value: 0x7f0b0091
+			public const int media_actions = 2131427473;
 			
 			// aapt resource value: 0x7f0b0015
 			public const int middle = 2131427349;
@@ -1727,26 +1724,26 @@ namespace NumericalMethodsApp
 			// aapt resource value: 0x7f0b0011
 			public const int showTitle = 2131427345;
 			
-			// aapt resource value: 0x7f0b00a3
-			public const int spinner_distancer_unit = 2131427491;
+			// aapt resource value: 0x7f0b00a0
+			public const int spinner_distancer_unit = 2131427488;
+			
+			// aapt resource value: 0x7f0b00a6
+			public const int spinner_first_band = 2131427494;
 			
 			// aapt resource value: 0x7f0b00a9
-			public const int spinner_first_band = 2131427497;
+			public const int spinner_fourth_band = 2131427497;
 			
-			// aapt resource value: 0x7f0b00ac
-			public const int spinner_fourth_band = 2131427500;
+			// aapt resource value: 0x7f0b009e
+			public const int spinner_gain_unit = 2131427486;
 			
-			// aapt resource value: 0x7f0b00a1
-			public const int spinner_gain_unit = 2131427489;
+			// aapt resource value: 0x7f0b009c
+			public const int spinner_out_power_unit = 2131427484;
 			
-			// aapt resource value: 0x7f0b009f
-			public const int spinner_out_power_unit = 2131427487;
+			// aapt resource value: 0x7f0b00a7
+			public const int spinner_second_band = 2131427495;
 			
-			// aapt resource value: 0x7f0b00aa
-			public const int spinner_second_band = 2131427498;
-			
-			// aapt resource value: 0x7f0b00ab
-			public const int spinner_third_band = 2131427499;
+			// aapt resource value: 0x7f0b00a8
+			public const int spinner_third_band = 2131427496;
 			
 			// aapt resource value: 0x7f0b0007
 			public const int split_action_bar = 2131427335;
@@ -1760,14 +1757,14 @@ namespace NumericalMethodsApp
 			// aapt resource value: 0x7f0b0022
 			public const int src_over = 2131427362;
 			
-			// aapt resource value: 0x7f0b0093
-			public const int status_bar_latest_event_content = 2131427475;
+			// aapt resource value: 0x7f0b0090
+			public const int status_bar_latest_event_content = 2131427472;
 			
 			// aapt resource value: 0x7f0b004b
 			public const int submit_area = 2131427403;
 			
-			// aapt resource value: 0x7f0b00b9
-			public const int support_toolbar = 2131427513;
+			// aapt resource value: 0x7f0b00b6
+			public const int support_toolbar = 2131427510;
 			
 			// aapt resource value: 0x7f0b000b
 			public const int tabMode = 2131427339;
@@ -1793,12 +1790,6 @@ namespace NumericalMethodsApp
 			// aapt resource value: 0x7f0b0070
 			public const int tbA7 = 2131427440;
 			
-			// aapt resource value: 0x7f0b0076
-			public const int tbX = 2131427446;
-			
-			// aapt resource value: 0x7f0b0072
-			public const int tbX0 = 2131427442;
-			
 			// aapt resource value: 0x7f0b0063
 			public const int tbX1 = 2131427427;
 			
@@ -1823,26 +1814,26 @@ namespace NumericalMethodsApp
 			// aapt resource value: 0x7f0b0071
 			public const int tbXP = 2131427441;
 			
+			// aapt resource value: 0x7f0b0072
+			public const int tbY1 = 2131427442;
+			
 			// aapt resource value: 0x7f0b0073
-			public const int tbY0 = 2131427443;
+			public const int tbY2 = 2131427443;
 			
 			// aapt resource value: 0x7f0b0074
-			public const int tbY1 = 2131427444;
+			public const int tbY3 = 2131427444;
 			
-			// aapt resource value: 0x7f0b0075
-			public const int tbY2 = 2131427445;
+			// aapt resource value: 0x7f0b0084
+			public const int tb_a = 2131427460;
 			
-			// aapt resource value: 0x7f0b0087
-			public const int tb_a = 2131427463;
+			// aapt resource value: 0x7f0b00a3
+			public const int tb_antenna_aperture = 2131427491;
 			
-			// aapt resource value: 0x7f0b00a6
-			public const int tb_antenna_aperture = 2131427494;
+			// aapt resource value: 0x7f0b0086
+			public const int tb_b = 2131427462;
 			
-			// aapt resource value: 0x7f0b0089
-			public const int tb_b = 2131427465;
-			
-			// aapt resource value: 0x7f0b008b
-			public const int tb_c = 2131427467;
+			// aapt resource value: 0x7f0b0088
+			public const int tb_c = 2131427464;
 			
 			// aapt resource value: 0x7f0b0050
 			public const int tb_capacitive_capacitance = 2131427408;
@@ -1850,26 +1841,26 @@ namespace NumericalMethodsApp
 			// aapt resource value: 0x7f0b004f
 			public const int tb_capacitive_freq = 2131427407;
 			
-			// aapt resource value: 0x7f0b00a7
-			public const int tb_cross_section_area = 2131427495;
+			// aapt resource value: 0x7f0b00a4
+			public const int tb_cross_section_area = 2131427492;
 			
-			// aapt resource value: 0x7f0b008d
-			public const int tb_d = 2131427469;
+			// aapt resource value: 0x7f0b008a
+			public const int tb_d = 2131427466;
 			
-			// aapt resource value: 0x7f0b00a2
-			public const int tb_distance = 2131427490;
+			// aapt resource value: 0x7f0b009f
+			public const int tb_distance = 2131427487;
 			
-			// aapt resource value: 0x7f0b00b2
-			public const int tb_e = 2131427506;
+			// aapt resource value: 0x7f0b00af
+			public const int tb_e = 2131427503;
 			
-			// aapt resource value: 0x7f0b00b3
-			public const int tb_f = 2131427507;
+			// aapt resource value: 0x7f0b00b0
+			public const int tb_f = 2131427504;
 			
-			// aapt resource value: 0x7f0b00b7
-			public const int tb_frequency = 2131427511;
+			// aapt resource value: 0x7f0b00b4
+			public const int tb_frequency = 2131427508;
 			
-			// aapt resource value: 0x7f0b00a0
-			public const int tb_gain = 2131427488;
+			// aapt resource value: 0x7f0b009d
+			public const int tb_gain = 2131427485;
 			
 			// aapt resource value: 0x7f0b0060
 			public const int tb_i = 2131427424;
@@ -1880,65 +1871,65 @@ namespace NumericalMethodsApp
 			// aapt resource value: 0x7f0b0053
 			public const int tb_inductive_inductance = 2131427411;
 			
-			// aapt resource value: 0x7f0b00bb
-			public const int tb_input = 2131427515;
+			// aapt resource value: 0x7f0b00b8
+			public const int tb_input = 2131427512;
 			
-			// aapt resource value: 0x7f0b00a5
-			public const int tb_max_power_gain = 2131427493;
+			// aapt resource value: 0x7f0b00a2
+			public const int tb_max_power_gain = 2131427490;
 			
 			// aapt resource value: 0x7f0b005c
 			public const int tb_p = 2131427420;
 			
-			// aapt resource value: 0x7f0b00b6
-			public const int tb_permeability = 2131427510;
+			// aapt resource value: 0x7f0b00b3
+			public const int tb_permeability = 2131427507;
 			
-			// aapt resource value: 0x7f0b009e
-			public const int tb_power = 2131427486;
+			// aapt resource value: 0x7f0b009b
+			public const int tb_power = 2131427483;
 			
-			// aapt resource value: 0x7f0b00a8
-			public const int tb_power_received = 2131427496;
+			// aapt resource value: 0x7f0b00a5
+			public const int tb_power_received = 2131427493;
 			
-			// aapt resource value: 0x7f0b00a4
-			public const int tb_pulse_peak_power = 2131427492;
+			// aapt resource value: 0x7f0b00a1
+			public const int tb_pulse_peak_power = 2131427489;
 			
 			// aapt resource value: 0x7f0b005e
 			public const int tb_r = 2131427422;
 			
-			// aapt resource value: 0x7f0b00b8
-			public const int tb_resistivity = 2131427512;
+			// aapt resource value: 0x7f0b00b5
+			public const int tb_resistivity = 2131427509;
 			
 			// aapt resource value: 0x7f0b005d
 			public const int tb_v = 2131427421;
 			
-			// aapt resource value: 0x7f0b009b
-			public const int text = 2131427483;
+			// aapt resource value: 0x7f0b0098
+			public const int text = 2131427480;
 			
-			// aapt resource value: 0x7f0b0099
-			public const int text2 = 2131427481;
+			// aapt resource value: 0x7f0b0096
+			public const int text2 = 2131427478;
 			
 			// aapt resource value: 0x7f0b0033
 			public const int textSpacerNoButtons = 2131427379;
 			
-			// aapt resource value: 0x7f0b00b0
-			public const int textView = 2131427504;
+			// aapt resource value: 0x7f0b00ad
+			public const int textView = 2131427501;
 			
-			// aapt resource value: 0x7f0b00b1
-			public const int textView2 = 2131427505;
+			// aapt resource value: 0x7f0b00ae
+			public const int textView2 = 2131427502;
 			
-			// aapt resource value: 0x7f0b00af
-			public const int textView3 = 2131427503;
+			// aapt resource value: 0x7f0b00ac
+			public const int textView3 = 2131427500;
 			
-			// aapt resource value: 0x7f0b0088
-			public const int textView4 = 2131427464;
+			// aapt resource value: 0x7f0b0085
+			public const int textView4 = 2131427461;
 			
-			// aapt resource value: 0x7f0b008a
-			public const int textView7 = 2131427466;
+			// aapt resource value: 0x7f0b0087
+			public const int textView7 = 2131427463;
 			
-			// aapt resource value: 0x7f0b008c
-			public const int textView8 = 2131427468;
+			// aapt resource value: 0x7f0b0089
+			public const int textView8 = 2131427465;
 			
-			// aapt resource value: 0x7f0b0097
-			public const int time = 2131427479;
+			// aapt resource value: 0x7f0b0094
+			public const int time = 2131427476;
 			
 			// aapt resource value: 0x7f0b002c
 			public const int title = 2131427372;
@@ -2102,70 +2093,76 @@ namespace NumericalMethodsApp
 			public const int gregory_newton_layout = 2130903072;
 			
 			// aapt resource value: 0x7f030021
-			public const int langrange_interp_layout = 2130903073;
+			public const int langrange_2pts_layout = 2130903073;
 			
 			// aapt resource value: 0x7f030022
-			public const int main = 2130903074;
+			public const int langrange_3pts_layout = 2130903074;
 			
 			// aapt resource value: 0x7f030023
-			public const int newton_raphson_layout = 2130903075;
+			public const int langrange_interp_layout = 2130903075;
 			
 			// aapt resource value: 0x7f030024
-			public const int notification_media_action = 2130903076;
+			public const int main = 2130903076;
 			
 			// aapt resource value: 0x7f030025
-			public const int notification_media_cancel_action = 2130903077;
+			public const int newton_raphson_layout = 2130903077;
 			
 			// aapt resource value: 0x7f030026
-			public const int notification_template_big_media = 2130903078;
+			public const int notification_media_action = 2130903078;
 			
 			// aapt resource value: 0x7f030027
-			public const int notification_template_big_media_narrow = 2130903079;
+			public const int notification_media_cancel_action = 2130903079;
 			
 			// aapt resource value: 0x7f030028
-			public const int notification_template_lines = 2130903080;
+			public const int notification_template_big_media = 2130903080;
 			
 			// aapt resource value: 0x7f030029
-			public const int notification_template_media = 2130903081;
+			public const int notification_template_big_media_narrow = 2130903081;
 			
 			// aapt resource value: 0x7f03002a
-			public const int notification_template_part_chronometer = 2130903082;
+			public const int notification_template_lines = 2130903082;
 			
 			// aapt resource value: 0x7f03002b
-			public const int notification_template_part_time = 2130903083;
+			public const int notification_template_media = 2130903083;
 			
 			// aapt resource value: 0x7f03002c
-			public const int power_density_layout = 2130903084;
+			public const int notification_template_part_chronometer = 2130903084;
 			
 			// aapt resource value: 0x7f03002d
-			public const int radar_range_layout = 2130903085;
+			public const int notification_template_part_time = 2130903085;
 			
 			// aapt resource value: 0x7f03002e
-			public const int resistance_calculator_layout = 2130903086;
+			public const int power_density_layout = 2130903086;
 			
 			// aapt resource value: 0x7f03002f
-			public const int select_dialog_item_material = 2130903087;
+			public const int radar_range_layout = 2130903087;
 			
 			// aapt resource value: 0x7f030030
-			public const int select_dialog_multichoice_material = 2130903088;
+			public const int resistance_calculator_layout = 2130903088;
 			
 			// aapt resource value: 0x7f030031
-			public const int select_dialog_singlechoice_material = 2130903089;
+			public const int select_dialog_item_material = 2130903089;
 			
 			// aapt resource value: 0x7f030032
-			public const int simultaneous_equation_layout = 2130903090;
+			public const int select_dialog_multichoice_material = 2130903090;
 			
 			// aapt resource value: 0x7f030033
-			public const int skin_effect_layout = 2130903091;
+			public const int select_dialog_singlechoice_material = 2130903091;
 			
 			// aapt resource value: 0x7f030034
-			public const int support_simple_spinner_dropdown_item = 2130903092;
+			public const int simultaneous_equation_layout = 2130903092;
 			
 			// aapt resource value: 0x7f030035
-			public const int support_toolbar = 2130903093;
+			public const int skin_effect_layout = 2130903093;
 			
 			// aapt resource value: 0x7f030036
-			public const int unit_conversions_layout = 2130903094;
+			public const int support_simple_spinner_dropdown_item = 2130903094;
+			
+			// aapt resource value: 0x7f030037
+			public const int support_toolbar = 2130903095;
+			
+			// aapt resource value: 0x7f030038
+			public const int unit_conversions_layout = 2130903096;
 			
 			static Layout()
 			{

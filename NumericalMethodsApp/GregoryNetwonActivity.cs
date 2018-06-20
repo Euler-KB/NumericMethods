@@ -37,6 +37,9 @@ namespace NumericalMethodsApp
                 var tbX5 = FindViewById<EditText>(Resource.Id.tbX5);
                 var tbX6 = FindViewById<EditText>(Resource.Id.tbX6);
                 var tbX7 = FindViewById<EditText>(Resource.Id.tbX7);
+
+                var tbXP = FindViewById<EditText>(Resource.Id.tbXP);
+
                 var lbAnswer = FindViewById<TextView>(Resource.Id.lb_output);
 
                 FindViewById<Button>(Resource.Id.btn_evaluate).Click += delegate
@@ -46,6 +49,8 @@ namespace NumericalMethodsApp
                     double.TryParse(tbX3.Text, out var x3);
                     double.TryParse(tbX4.Text, out var x4);
                     double.TryParse(tbX5.Text, out var x5);
+                    double.TryParse(tbXP.Text, out var xp);
+
                     bool hasX6 = double.TryParse(tbX6.Text, out var x6);
                     bool hasX7 = double.TryParse(tbX7.Text, out var x7);
 
@@ -54,18 +59,20 @@ namespace NumericalMethodsApp
                     double.TryParse(tbA3.Text, out var a3);
                     double.TryParse(tbA4.Text, out var a4);
                     double.TryParse(tbA5.Text, out var a5);
-                    double.TryParse(tbA6.Text, out var a6);
-                    double.TryParse(tbA7.Text, out var a7);
+                    bool hasA6 = double.TryParse(tbA6.Text, out var a6);
+                    bool hasA7 = double.TryParse(tbA7.Text, out var a7);
 
-                    if (!hasX6 && !hasX7)
-                    {
+                    if (!hasX6 || !hasX7)
                         x6 = 0;
-                        x7 = 0;
-                        a6 = 0;
-                        a7 = 0;
-                    }
 
-                    //  Difference table
+                    if (!hasA6)
+                        a6 = 0;
+
+                    if (!hasA7)
+                        a7 = 0;
+
+                    //    'variables for the diference table
+                    //'declear the following variables
                     double b1, b2, b3, b4, b5, b6;
                     double c1, c2, c3, c4, c5;
                     double d1, d2, d3, d4;
@@ -73,6 +80,8 @@ namespace NumericalMethodsApp
                     double f1, f2;
                     double g1;
 
+
+                    //'constructing a diference table
                     b1 = a2 - a1;
                     b2 = a3 - a2;
                     b3 = a4 - a3;
@@ -80,15 +89,17 @@ namespace NumericalMethodsApp
                     b5 = a6 - a5;
                     b6 = a7 - a6;
 
-                    //
-                    if (x7 <= x6 && !hasX6)
+
+
+                    // If x7 <= x6 And x6 = Nothing Then
+                    if (x6 <= x7 && x7 == 0)
                     {
                         b5 = 0;
                     }
 
-
-                    if (!hasX7)
+                    if (x7 == 0)
                     {
+
                         b6 = 0;
                     }
 
@@ -98,13 +109,11 @@ namespace NumericalMethodsApp
                     c4 = b5 - b4;
                     c5 = b6 - b5;
 
-                    //
-                    if (x7 <= x6 && !hasX7)
+                    if (x6 <= x7 && x7 == 0)
                     {
                         c4 = 0;
                     }
-
-                    if (!hasX7)
+                    if (x7 == 0)
                     {
                         c5 = 0;
                     }
@@ -113,13 +122,11 @@ namespace NumericalMethodsApp
                     d2 = c3 - c2;
                     d3 = c4 - c3;
                     d4 = c5 - c4;
-
-                    if (x7 <= x6 && !hasX6)
+                    if (x6 <= x7 && x7 == 0)
                     {
-                        d3 = 0;
+                        b3 = 0;
                     }
-
-                    if (!hasX7)
+                    if (x7 == 0)
                     {
                         d4 = 0;
                     }
@@ -128,41 +135,38 @@ namespace NumericalMethodsApp
                     e2 = d3 - d2;
                     e3 = d4 - d3;
 
-                    if (x7 <= x6 && !hasX6)
+                    if (x6 <= x7 && x7 == 0)
                     {
                         e2 = 0;
                     }
-
-                    if (!hasX7)
+                    if (x7 == -0)
                     {
                         e3 = 0;
                     }
-
                     f1 = e2 - e1;
                     f2 = e3 - e2;
-
-                    if (x7 <= x6 && !hasX6)
+                    if (x6 <= x7 && x7 == 0)
                     {
                         f1 = 0;
                     }
-
-                    if (!hasX7)
+                    if (x7 == 0)
                     {
                         f2 = 0;
                     }
 
+
                     g1 = f2 - f1;
 
-                    if (x7 <= x6 && !hasX6)
+
+                    if (x6 <= x7 && x7 == 0)
                     {
                         g1 = 0;
                     }
 
-                    //
-                    double A, B, C, D, P, F, xp = 0;
-                    double Aa, Bb, Cc, Dd, Ee, Ff, Gg, G, answer = 0;
+                    double A, B, C, D, P, F;
 
-                    //
+                    double Aa, Bb, Cc, Dd, Ee, Ff, Gg, G, answer;
+
                     if (xp > x1 && xp < x2)
                     {
                         P = (xp - x1) / (x2 - x1);
@@ -180,10 +184,14 @@ namespace NumericalMethodsApp
                         Ff = (P * A * B * C * D * f1) / 120;
                         Gg = (P * A * B * C * D * F * g1) / 720;
                         answer = Aa + Bb + Cc + Dd + Ee + Ff + Gg;
+                        lbAnswer.Text = $"Answer: {answer}";
                     }
+
+
 
                     if (xp > x2 && xp < x3)
                     {
+
                         P = (xp - x2) / (x3 - x2);
                         A = P - 1;
                         B = P - 2;
@@ -198,12 +206,14 @@ namespace NumericalMethodsApp
                         Ee = (P * A * B * C * e2) / 24;
                         Ff = (P * A * B * C * D * f2) / 120;
 
-                        answer = Aa + Bb + Cc + Dd + Ee + Ff;
 
+                        answer = Aa + Bb + Cc + Dd + Ee + Ff;
+                        lbAnswer.Text = $"Answer: {answer}";
                     }
 
                     if (xp > x6 && xp < x7)
                     {
+
                         P = (xp - x6) / (x7 - x6);
                         A = P + 1;
                         B = P + 2;
@@ -219,12 +229,13 @@ namespace NumericalMethodsApp
                         Ff = (P * A * B * C * D * f1) / 120;
 
                         answer = Aa + Bb + Cc + Dd + Ee + Ff;
-
+                        lbAnswer.Text = $"Answer: {answer}";
                     }
 
 
                     if (xp > x5 && xp < x6)
                     {
+
                         P = (xp - x5) / (x6 - x5);
                         A = P + 1;
                         B = P + 2;
@@ -240,8 +251,9 @@ namespace NumericalMethodsApp
                         Ff = (P * A * B * C * D * e1) / 120;
 
                         answer = Aa + Bb + Cc + Dd + Ee + Ff;
-
+                        lbAnswer.Text = $"Answer: {answer}";
                     }
+
 
 
                     if (xp > x4 && xp < x5)
@@ -262,7 +274,10 @@ namespace NumericalMethodsApp
                         Ff = (P * A * B * C * D * F * f2) / 120;
                         Gg = (P * A * B * C * D * F * G * g1) / 720;
 
+
                         answer = Aa + Bb + Cc + Dd + Ee + Ff + Gg;
+                        lbAnswer.Text = $"Answer: {answer}";
+
                     }
 
                     if (xp > x3 && xp < x4)
@@ -281,15 +296,11 @@ namespace NumericalMethodsApp
                         Dd = (P * A * B * d2) / 6;
                         Ee = (P * A * B * C * e1) / 24;
                         Ff = (P * A * B * C * D * F * f1) / 120;
-                        // Gg = (P * A * B * C * D * F * G * g1) / 720
 
                         answer = Aa + Bb + Cc + Dd + Ee + Ff;
-
+                        lbAnswer.Text = $"Answer: {answer}";
                     }
 
-
-                    //  Print answer here
-                    lbAnswer.Text = $"Answer: {answer}";
 
                 };
 
